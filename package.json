@@ -1,10 +1,13 @@
 {
-  "homepage": "https://AlABarazi.github.io/Assessment_Visualization" ,
+  "homepage": "https://AlABarazi.github.io/Assessment_Visualization",
   "devDependencies": {
     "gh-pages": "^6.2.0"
   },
   "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
-}
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }
